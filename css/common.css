@@ -1,0 +1,549 @@
+.wb-stl-pagetitle { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #f17146; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+.wb-stl-pagetitle a { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-pagetitle a:hover { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-pagetitle ul { list-style-image: url('null'); }
+.wb-stl-subtitle { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #754f44; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+.wb-stl-subtitle a { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-subtitle a:hover { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-subtitle ul { list-style-image: url('null'); }
+.wb-stl-heading1 { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+.wb-stl-heading1 a { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-heading1 a:hover { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-heading1 ul { list-style-image: url('null'); }
+.wb-stl-heading2 { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+.wb-stl-heading2 a { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-heading2 a:hover { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-heading2 ul { list-style-image: url('null'); }
+.wb-stl-heading3 { font-size: 16px; }
+.wb-stl-normal { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #8a7772; line-height: 18px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+.wb-stl-normal a { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #542d00; line-height: 18px; font-weight: bold; font-style: normal; }
+.wb-stl-normal a:hover { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: 18px; font-weight: bold; font-style: normal; }
+.wb-stl-normal ul { list-style-image: url('null'); }
+.wb-stl-highlight { font-size: 12px; background: yellow; }
+.wb-stl-special { font-size: 12px; font-weight: bold; text-decoration: underline; }
+.wb-stl-footer { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #b9a798; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+.wb-stl-footer a { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: underline; color: #542d00; line-height: normal; font-weight: bold; font-style: normal; }
+.wb-stl-footer a:hover { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: normal; font-weight: bold; font-style: normal; }
+.wb-stl-footer ul { list-style-image: url('null'); }
+.wb-stl-pagetitle { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #f17146; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+.wb-stl-pagetitle a { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-pagetitle a:hover { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-pagetitle ul { list-style-image: url('null'); }
+.wb-stl-subtitle { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #754f44; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+.wb-stl-subtitle a { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-subtitle a:hover { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-subtitle ul { list-style-image: url('null'); }
+.wb-stl-heading1 { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+.wb-stl-heading1 a { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-heading1 a:hover { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-heading1 ul { list-style-image: url('null'); }
+.wb-stl-heading2 { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+.wb-stl-heading2 a { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-heading2 a:hover { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-heading2 ul { list-style-image: url('null'); }
+.wb-stl-heading3 { font-size: 16px; }
+.wb-stl-normal { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #8a7772; line-height: 18px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+.wb-stl-normal a { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #542d00; line-height: 18px; font-weight: bold; font-style: normal; }
+.wb-stl-normal a:hover { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: 18px; font-weight: bold; font-style: normal; }
+.wb-stl-normal ul { list-style-image: url('null'); }
+.wb-stl-highlight { font-size: 12px; background: yellow; }
+.wb-stl-special { font-size: 12px; font-weight: bold; text-decoration: underline; }
+.wb-stl-footer { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #b9a798; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+.wb-stl-footer a { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: underline; color: #542d00; line-height: normal; font-weight: bold; font-style: normal; }
+.wb-stl-footer a:hover { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: normal; font-weight: bold; font-style: normal; }
+.wb-stl-footer ul { list-style-image: url('null'); }
+.wb-stl-pagetitle { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #f17146; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+.wb-stl-pagetitle a { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-pagetitle a:hover { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-pagetitle ul { list-style-image: url('null'); }
+.wb-stl-subtitle { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #754f44; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+.wb-stl-subtitle a { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-subtitle a:hover { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-subtitle ul { list-style-image: url('null'); }
+.wb-stl-heading1 { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+.wb-stl-heading1 a { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-heading1 a:hover { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-heading1 ul { list-style-image: url('null'); }
+.wb-stl-heading2 { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+.wb-stl-heading2 a { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-heading2 a:hover { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-heading2 ul { list-style-image: url('null'); }
+.wb-stl-heading3 { font-size: 16px; }
+.wb-stl-normal { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #8a7772; line-height: 18px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+.wb-stl-normal a { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #542d00; line-height: 18px; font-weight: bold; font-style: normal; }
+.wb-stl-normal a:hover { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: 18px; font-weight: bold; font-style: normal; }
+.wb-stl-normal ul { list-style-image: url('null'); }
+.wb-stl-highlight { font-size: 12px; background: yellow; }
+.wb-stl-special { font-size: 12px; font-weight: bold; text-decoration: underline; }
+.wb-stl-footer { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #b9a798; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+.wb-stl-footer a { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: underline; color: #542d00; line-height: normal; font-weight: bold; font-style: normal; }
+.wb-stl-footer a:hover { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: normal; font-weight: bold; font-style: normal; }
+.wb-stl-footer ul { list-style-image: url('null'); }
+.wb-stl-pagetitle { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #f17146; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+.wb-stl-pagetitle a { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-pagetitle a:hover { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-pagetitle ul { list-style-image: url('null'); }
+.wb-stl-subtitle { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #754f44; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+.wb-stl-subtitle a { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-subtitle a:hover { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-subtitle ul { list-style-image: url('null'); }
+.wb-stl-heading1 { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+.wb-stl-heading1 a { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-heading1 a:hover { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-heading1 ul { list-style-image: url('null'); }
+.wb-stl-heading2 { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+.wb-stl-heading2 a { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-heading2 a:hover { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-heading2 ul { list-style-image: url('null'); }
+.wb-stl-heading3 { font-size: 16px; }
+.wb-stl-normal { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #8a7772; line-height: 18px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+.wb-stl-normal a { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #542d00; line-height: 18px; font-weight: bold; font-style: normal; }
+.wb-stl-normal a:hover { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: 18px; font-weight: bold; font-style: normal; }
+.wb-stl-normal ul { list-style-image: url('null'); }
+.wb-stl-highlight { font-size: 12px; background: yellow; }
+.wb-stl-special { font-size: 12px; font-weight: bold; text-decoration: underline; }
+.wb-stl-footer { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #b9a798; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+.wb-stl-footer a { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: underline; color: #542d00; line-height: normal; font-weight: bold; font-style: normal; }
+.wb-stl-footer a:hover { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: normal; font-weight: bold; font-style: normal; }
+.wb-stl-footer ul { list-style-image: url('null'); }
+.wb-stl-pagetitle { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #f17146; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+.wb-stl-pagetitle a { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-pagetitle a:hover { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-pagetitle ul { list-style-image: url('null'); }
+.wb-stl-subtitle { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #754f44; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+.wb-stl-subtitle a { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-subtitle a:hover { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-subtitle ul { list-style-image: url('null'); }
+.wb-stl-heading1 { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+.wb-stl-heading1 a { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-heading1 a:hover { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-heading1 ul { list-style-image: url('null'); }
+.wb-stl-heading2 { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+.wb-stl-heading2 a { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-heading2 a:hover { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+.wb-stl-heading2 ul { list-style-image: url('null'); }
+.wb-stl-heading3 { font-size: 16px; }
+.wb-stl-normal { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #8a7772; line-height: 18px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+.wb-stl-normal a { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #542d00; line-height: 18px; font-weight: bold; font-style: normal; }
+.wb-stl-normal a:hover { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: 18px; font-weight: bold; font-style: normal; }
+.wb-stl-normal ul { list-style-image: url('null'); }
+.wb-stl-highlight { font-size: 12px; background: yellow; }
+.wb-stl-special { font-size: 12px; font-weight: bold; text-decoration: underline; }
+.wb-stl-footer { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #b9a798; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+.wb-stl-footer a { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: underline; color: #542d00; line-height: normal; font-weight: bold; font-style: normal; }
+.wb-stl-footer a:hover { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: normal; font-weight: bold; font-style: normal; }
+.wb-stl-footer ul { list-style-image: url('null'); }
+
+@media (min-width: 768px) {
+	.wb-stl-pagetitle { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #f17146; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-pagetitle a { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle a:hover { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle ul { list-style-image: url('null'); }
+	.wb-stl-subtitle { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #754f44; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-subtitle a { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle a:hover { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle ul { list-style-image: url('null'); }
+	.wb-stl-heading1 { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading1 a { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 a:hover { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 ul { list-style-image: url('null'); }
+	.wb-stl-heading2 { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading2 a { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 a:hover { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 ul { list-style-image: url('null'); }
+	.wb-stl-heading3 { font-size: 16px; }
+	.wb-stl-normal { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #8a7772; line-height: 18px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-normal a { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #542d00; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal a:hover { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal ul { list-style-image: url('null'); }
+	.wb-stl-highlight { font-size: 12px; background: yellow; }
+	.wb-stl-special { font-size: 12px; font-weight: bold; text-decoration: underline; }
+	.wb-stl-footer { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #b9a798; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-footer a { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: underline; color: #542d00; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer a:hover { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer ul { list-style-image: url('null'); }
+	.wb-stl-pagetitle { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #f17146; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-pagetitle a { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle a:hover { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle ul { list-style-image: url('null'); }
+	.wb-stl-subtitle { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #754f44; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-subtitle a { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle a:hover { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle ul { list-style-image: url('null'); }
+	.wb-stl-heading1 { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading1 a { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 a:hover { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 ul { list-style-image: url('null'); }
+	.wb-stl-heading2 { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading2 a { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 a:hover { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 ul { list-style-image: url('null'); }
+	.wb-stl-heading3 { font-size: 16px; }
+	.wb-stl-normal { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #8a7772; line-height: 18px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-normal a { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #542d00; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal a:hover { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal ul { list-style-image: url('null'); }
+	.wb-stl-highlight { font-size: 12px; background: yellow; }
+	.wb-stl-special { font-size: 12px; font-weight: bold; text-decoration: underline; }
+	.wb-stl-footer { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #b9a798; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-footer a { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: underline; color: #542d00; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer a:hover { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer ul { list-style-image: url('null'); }
+	.wb-stl-pagetitle { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #f17146; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-pagetitle a { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle a:hover { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle ul { list-style-image: url('null'); }
+	.wb-stl-subtitle { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #754f44; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-subtitle a { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle a:hover { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle ul { list-style-image: url('null'); }
+	.wb-stl-heading1 { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading1 a { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 a:hover { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 ul { list-style-image: url('null'); }
+	.wb-stl-heading2 { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading2 a { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 a:hover { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 ul { list-style-image: url('null'); }
+	.wb-stl-heading3 { font-size: 16px; }
+	.wb-stl-normal { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #8a7772; line-height: 18px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-normal a { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #542d00; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal a:hover { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal ul { list-style-image: url('null'); }
+	.wb-stl-highlight { font-size: 12px; background: yellow; }
+	.wb-stl-special { font-size: 12px; font-weight: bold; text-decoration: underline; }
+	.wb-stl-footer { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #b9a798; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-footer a { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: underline; color: #542d00; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer a:hover { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer ul { list-style-image: url('null'); }
+	.wb-stl-pagetitle { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #f17146; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-pagetitle a { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle a:hover { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle ul { list-style-image: url('null'); }
+	.wb-stl-subtitle { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #754f44; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-subtitle a { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle a:hover { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle ul { list-style-image: url('null'); }
+	.wb-stl-heading1 { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading1 a { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 a:hover { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 ul { list-style-image: url('null'); }
+	.wb-stl-heading2 { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading2 a { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 a:hover { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 ul { list-style-image: url('null'); }
+	.wb-stl-heading3 { font-size: 16px; }
+	.wb-stl-normal { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #8a7772; line-height: 18px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-normal a { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #542d00; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal a:hover { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal ul { list-style-image: url('null'); }
+	.wb-stl-highlight { font-size: 12px; background: yellow; }
+	.wb-stl-special { font-size: 12px; font-weight: bold; text-decoration: underline; }
+	.wb-stl-footer { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #b9a798; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-footer a { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: underline; color: #542d00; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer a:hover { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer ul { list-style-image: url('null'); }
+	.wb-stl-pagetitle { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #f17146; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-pagetitle a { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle a:hover { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle ul { list-style-image: url('null'); }
+	.wb-stl-subtitle { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #754f44; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-subtitle a { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle a:hover { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle ul { list-style-image: url('null'); }
+	.wb-stl-heading1 { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading1 a { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 a:hover { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 ul { list-style-image: url('null'); }
+	.wb-stl-heading2 { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading2 a { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 a:hover { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 ul { list-style-image: url('null'); }
+	.wb-stl-heading3 { font-size: 16px; }
+	.wb-stl-normal { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #8a7772; line-height: 18px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-normal a { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #542d00; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal a:hover { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal ul { list-style-image: url('null'); }
+	.wb-stl-highlight { font-size: 12px; background: yellow; }
+	.wb-stl-special { font-size: 12px; font-weight: bold; text-decoration: underline; }
+	.wb-stl-footer { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #b9a798; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-footer a { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: underline; color: #542d00; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer a:hover { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer ul { list-style-image: url('null'); }
+}
+
+@media (min-width: 992px) {
+	.wb-stl-pagetitle { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #f17146; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-pagetitle a { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle a:hover { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle ul { list-style-image: url('null'); }
+	.wb-stl-subtitle { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #754f44; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-subtitle a { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle a:hover { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle ul { list-style-image: url('null'); }
+	.wb-stl-heading1 { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading1 a { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 a:hover { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 ul { list-style-image: url('null'); }
+	.wb-stl-heading2 { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading2 a { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 a:hover { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 ul { list-style-image: url('null'); }
+	.wb-stl-heading3 { font-size: 16px; }
+	.wb-stl-normal { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #8a7772; line-height: 18px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-normal a { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #542d00; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal a:hover { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal ul { list-style-image: url('null'); }
+	.wb-stl-highlight { font-size: 12px; background: yellow; }
+	.wb-stl-special { font-size: 12px; font-weight: bold; text-decoration: underline; }
+	.wb-stl-footer { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #b9a798; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-footer a { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: underline; color: #542d00; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer a:hover { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer ul { list-style-image: url('null'); }
+	.wb-stl-pagetitle { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #f17146; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-pagetitle a { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle a:hover { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle ul { list-style-image: url('null'); }
+	.wb-stl-subtitle { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #754f44; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-subtitle a { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle a:hover { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle ul { list-style-image: url('null'); }
+	.wb-stl-heading1 { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading1 a { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 a:hover { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 ul { list-style-image: url('null'); }
+	.wb-stl-heading2 { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading2 a { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 a:hover { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 ul { list-style-image: url('null'); }
+	.wb-stl-heading3 { font-size: 16px; }
+	.wb-stl-normal { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #8a7772; line-height: 18px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-normal a { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #542d00; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal a:hover { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal ul { list-style-image: url('null'); }
+	.wb-stl-highlight { font-size: 12px; background: yellow; }
+	.wb-stl-special { font-size: 12px; font-weight: bold; text-decoration: underline; }
+	.wb-stl-footer { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #b9a798; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-footer a { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: underline; color: #542d00; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer a:hover { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer ul { list-style-image: url('null'); }
+	.wb-stl-pagetitle { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #f17146; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-pagetitle a { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle a:hover { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle ul { list-style-image: url('null'); }
+	.wb-stl-subtitle { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #754f44; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-subtitle a { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle a:hover { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle ul { list-style-image: url('null'); }
+	.wb-stl-heading1 { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading1 a { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 a:hover { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 ul { list-style-image: url('null'); }
+	.wb-stl-heading2 { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading2 a { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 a:hover { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 ul { list-style-image: url('null'); }
+	.wb-stl-heading3 { font-size: 16px; }
+	.wb-stl-normal { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #8a7772; line-height: 18px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-normal a { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #542d00; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal a:hover { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal ul { list-style-image: url('null'); }
+	.wb-stl-highlight { font-size: 12px; background: yellow; }
+	.wb-stl-special { font-size: 12px; font-weight: bold; text-decoration: underline; }
+	.wb-stl-footer { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #b9a798; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-footer a { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: underline; color: #542d00; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer a:hover { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer ul { list-style-image: url('null'); }
+	.wb-stl-pagetitle { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #f17146; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-pagetitle a { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle a:hover { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle ul { list-style-image: url('null'); }
+	.wb-stl-subtitle { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #754f44; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-subtitle a { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle a:hover { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle ul { list-style-image: url('null'); }
+	.wb-stl-heading1 { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading1 a { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 a:hover { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 ul { list-style-image: url('null'); }
+	.wb-stl-heading2 { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading2 a { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 a:hover { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 ul { list-style-image: url('null'); }
+	.wb-stl-heading3 { font-size: 16px; }
+	.wb-stl-normal { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #8a7772; line-height: 18px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-normal a { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #542d00; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal a:hover { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal ul { list-style-image: url('null'); }
+	.wb-stl-highlight { font-size: 12px; background: yellow; }
+	.wb-stl-special { font-size: 12px; font-weight: bold; text-decoration: underline; }
+	.wb-stl-footer { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #b9a798; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-footer a { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: underline; color: #542d00; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer a:hover { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer ul { list-style-image: url('null'); }
+	.wb-stl-pagetitle { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #f17146; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-pagetitle a { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle a:hover { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle ul { list-style-image: url('null'); }
+	.wb-stl-subtitle { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #754f44; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-subtitle a { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle a:hover { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle ul { list-style-image: url('null'); }
+	.wb-stl-heading1 { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading1 a { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 a:hover { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 ul { list-style-image: url('null'); }
+	.wb-stl-heading2 { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading2 a { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 a:hover { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 ul { list-style-image: url('null'); }
+	.wb-stl-heading3 { font-size: 16px; }
+	.wb-stl-normal { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #8a7772; line-height: 18px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-normal a { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #542d00; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal a:hover { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal ul { list-style-image: url('null'); }
+	.wb-stl-highlight { font-size: 12px; background: yellow; }
+	.wb-stl-special { font-size: 12px; font-weight: bold; text-decoration: underline; }
+	.wb-stl-footer { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #b9a798; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-footer a { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: underline; color: #542d00; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer a:hover { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer ul { list-style-image: url('null'); }
+}
+
+@media (min-width: 1200px) {
+	.wb-stl-pagetitle { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #f17146; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-pagetitle a { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle a:hover { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle ul { list-style-image: url('null'); }
+	.wb-stl-subtitle { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #754f44; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-subtitle a { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle a:hover { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle ul { list-style-image: url('null'); }
+	.wb-stl-heading1 { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading1 a { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 a:hover { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 ul { list-style-image: url('null'); }
+	.wb-stl-heading2 { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading2 a { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 a:hover { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 ul { list-style-image: url('null'); }
+	.wb-stl-heading3 { font-size: 16px; }
+	.wb-stl-normal { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #8a7772; line-height: 18px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-normal a { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #542d00; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal a:hover { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal ul { list-style-image: url('null'); }
+	.wb-stl-highlight { font-size: 12px; background: yellow; }
+	.wb-stl-special { font-size: 12px; font-weight: bold; text-decoration: underline; }
+	.wb-stl-footer { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #b9a798; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-footer a { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: underline; color: #542d00; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer a:hover { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer ul { list-style-image: url('null'); }
+	.wb-stl-pagetitle { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #f17146; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-pagetitle a { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle a:hover { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle ul { list-style-image: url('null'); }
+	.wb-stl-subtitle { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #754f44; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-subtitle a { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle a:hover { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle ul { list-style-image: url('null'); }
+	.wb-stl-heading1 { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading1 a { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 a:hover { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 ul { list-style-image: url('null'); }
+	.wb-stl-heading2 { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading2 a { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 a:hover { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 ul { list-style-image: url('null'); }
+	.wb-stl-heading3 { font-size: 16px; }
+	.wb-stl-normal { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #8a7772; line-height: 18px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-normal a { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #542d00; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal a:hover { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal ul { list-style-image: url('null'); }
+	.wb-stl-highlight { font-size: 12px; background: yellow; }
+	.wb-stl-special { font-size: 12px; font-weight: bold; text-decoration: underline; }
+	.wb-stl-footer { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #b9a798; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-footer a { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: underline; color: #542d00; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer a:hover { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer ul { list-style-image: url('null'); }
+	.wb-stl-pagetitle { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #f17146; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-pagetitle a { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle a:hover { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle ul { list-style-image: url('null'); }
+	.wb-stl-subtitle { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #754f44; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-subtitle a { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle a:hover { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle ul { list-style-image: url('null'); }
+	.wb-stl-heading1 { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading1 a { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 a:hover { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 ul { list-style-image: url('null'); }
+	.wb-stl-heading2 { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading2 a { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 a:hover { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 ul { list-style-image: url('null'); }
+	.wb-stl-heading3 { font-size: 16px; }
+	.wb-stl-normal { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #8a7772; line-height: 18px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-normal a { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #542d00; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal a:hover { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal ul { list-style-image: url('null'); }
+	.wb-stl-highlight { font-size: 12px; background: yellow; }
+	.wb-stl-special { font-size: 12px; font-weight: bold; text-decoration: underline; }
+	.wb-stl-footer { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #b9a798; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-footer a { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: underline; color: #542d00; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer a:hover { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer ul { list-style-image: url('null'); }
+	.wb-stl-pagetitle { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #f17146; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-pagetitle a { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle a:hover { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle ul { list-style-image: url('null'); }
+	.wb-stl-subtitle { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #754f44; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-subtitle a { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle a:hover { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle ul { list-style-image: url('null'); }
+	.wb-stl-heading1 { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading1 a { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 a:hover { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 ul { list-style-image: url('null'); }
+	.wb-stl-heading2 { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading2 a { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 a:hover { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 ul { list-style-image: url('null'); }
+	.wb-stl-heading3 { font-size: 16px; }
+	.wb-stl-normal { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #8a7772; line-height: 18px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-normal a { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #542d00; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal a:hover { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal ul { list-style-image: url('null'); }
+	.wb-stl-highlight { font-size: 12px; background: yellow; }
+	.wb-stl-special { font-size: 12px; font-weight: bold; text-decoration: underline; }
+	.wb-stl-footer { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #b9a798; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-footer a { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: underline; color: #542d00; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer a:hover { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer ul { list-style-image: url('null'); }
+	.wb-stl-pagetitle { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #f17146; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-pagetitle a { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle a:hover { font: normal bold 34px 'Open Sans',sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-pagetitle ul { list-style-image: url('null'); }
+	.wb-stl-subtitle { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #754f44; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-subtitle a { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle a:hover { font: normal bold 65px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-subtitle ul { list-style-image: url('null'); }
+	.wb-stl-heading1 { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading1 a { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 a:hover { font: normal bold 24px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading1 ul { list-style-image: url('null'); }
+	.wb-stl-heading2 { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #462921; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-heading2 a { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 a:hover { font: normal normal 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #000000; line-height: normal; font-weight: normal; font-style: normal; }
+	.wb-stl-heading2 ul { list-style-image: url('null'); }
+	.wb-stl-heading3 { font-size: 16px; }
+	.wb-stl-normal { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #8a7772; line-height: 18px; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+	.wb-stl-normal a { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #542d00; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal a:hover { font: normal normal 14px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: 18px; font-weight: bold; font-style: normal; }
+	.wb-stl-normal ul { list-style-image: url('null'); }
+	.wb-stl-highlight { font-size: 12px; background: yellow; }
+	.wb-stl-special { font-size: 12px; font-weight: bold; text-decoration: underline; }
+	.wb-stl-footer { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #b9a798; line-height: normal; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-transform: capitalize; }
+	.wb-stl-footer a { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: underline; color: #542d00; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer a:hover { font: normal bold 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #6b3f0d; line-height: normal; font-weight: bold; font-style: normal; }
+	.wb-stl-footer ul { list-style-image: url('null'); }
+}
